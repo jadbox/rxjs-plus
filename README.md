@@ -2,13 +2,19 @@
 RxJS wrapper with common short-hands and predicates
 
 // Filters each item that contains the specified value
-Observable.prototype.filterIncludes(filterBy);
+observableProto.filterIncludes(filterBy);
 
 // Alias for filterIncludes
-Observable.prototype.filterContains = rxo.prototype.filterIncludes;
+observableProto.filterContains = rxo.prototype.filterIncludes;
 
 // Filters values that are not null or undefined
-Observable.prototype.filterNotNull()
+observableProto.filterNotNull()
 
 // Filters values that are not 0 or empty string or any JS value that evals to false
-Observable.prototype.filterNotEmpty()
+observableProto.filterNotEmpty()
+
+// Uses addition op with the parameter, the parameter will be used last in the operation
+observableProto.mapAdd = function(addWith)
+
+// Uses addition op with the parameter, with the parameter first in the operation
+observableProto.mapPreAdd = function(addWith)
