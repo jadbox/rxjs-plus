@@ -1,7 +1,7 @@
 {
   "name": "rxjs-plus",
-  "version": "0.2.6",
-  "description": "RxJS helpers",
+  "version": "0.2.7",
+  "description": "RxJS wrapper with common short-hands and predicates",
   "main": "lib/rxjs-plus.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
