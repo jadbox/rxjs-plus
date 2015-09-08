@@ -1,6 +1,6 @@
 {
   "name": "rxjs-plus",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "RxJS helpers",
   "main": "lib/rxjs-plus.js",
   "scripts": {
