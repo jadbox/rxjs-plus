@@ -1,0 +1,26 @@
+{
+  "name": "rxjs-plus",
+  "version": "0.2.5",
+  "description": "RxJS helpers",
+  "main": "lib/rxjs-plus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadbox/rxjs-plus.git"
+  },
+  "keywords": [
+    "rx"
+  ],
+  "author": "Jonathan Dunlap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadbox/rxjs-plus/issues"
+  },
+  "dependencies": {
+    "lodash-fp": "^0.10.2",
+    "predicate": "git://github.com/jadbox/predicate",
+    "rx": "^3.1.2"
+  }
+}
