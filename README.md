@@ -30,3 +30,16 @@ Observable.mapAdd(addWith)
 Observable.mapPreAdd(addWith)
 ```
 > Uses addition op with the parameter, with the parameter first in the operation
+
+```
+Observable.filterDash(filterBy)
+```
+Uses lodash style of filtering
+[https://lodash.com/docs#filter](https://lodash.com/docs#filter)
+
+```
+Observable.propertyFilter(props, filterBy)
+Observable.propertyIncludes(props, filterIncludes)
+Observable.propertyContains = propertyIncludes
+```
+Property filter on stream objects
