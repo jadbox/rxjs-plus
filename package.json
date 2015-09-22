@@ -19,6 +19,7 @@
     "url": "https://github.com/jadbox/rxjs-plus/issues"
   },
   "dependencies": {
+    "json-stringify-safe": "^5.0.1",
     "lodash-fp": "^0.10.2",
     "predicate": "git://github.com/jadbox/predicate",
     "rx": "^3.1.2"
