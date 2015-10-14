@@ -22,6 +22,6 @@
     "json-stringify-safe": "^5.0.1",
     "lodash-fp": "^0.10.2",
     "predicate": "git://github.com/jadbox/predicate",
-    "rx": "^4.0.3"
+    "rx": "^4.0.6"
   }
 }
