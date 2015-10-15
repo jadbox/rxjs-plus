@@ -1,6 +1,6 @@
 {
   "name": "rxjs-plus",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "description": "RxJS wrapper with common short-hands and predicates",
   "main": "lib/rxjs-plus.js",
   "scripts": {
