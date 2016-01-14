@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
-    "lodash-fp": "^0.10.2",
+    "lodash": "^4.0.0",
     "predicate": "git://github.com/jadbox/predicate",
     "rx": "^4.0.7"
   }
